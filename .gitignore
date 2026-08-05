@@ -1,0 +1,16 @@
+# скачанные провайдеры (tofu init)
+.terraform/
+
+# state — правда о созданных ресурсах в YC
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# переменные с ID/путями (часто секретно)
+*.tfvars
+*.tfvars.json
+
+# ключи SA, если кто-то по ошибке положит в папку
+*key*.json
+*.pem
