@@ -56,7 +56,7 @@ resource "yandex_vpc_security_group" "diary_sg" {
     v4_cidr_blocks = ["0.0.0.0/0"]
   }
 }
- 
+
 resource "yandex_vpc_gateway" "nat" {
   name = "diary-nat-gw"
 
